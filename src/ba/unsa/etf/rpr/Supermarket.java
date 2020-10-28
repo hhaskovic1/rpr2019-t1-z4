@@ -17,11 +17,17 @@ public class Supermarket {
         return artikli;
     }
 
-    public Artikl izbaciArtiklSaKodom(int kod) {
+    public Artikl izbaciArtiklSaKodom(String kod) {
+
+        Artikl x;
 
         for(Artikl a:artikli) {
-            if(a.getKod()==kod)
+            if(a.getKod().equals(kod)) {
+                x=a;
+            }
         }
+
+
 
     }
 }

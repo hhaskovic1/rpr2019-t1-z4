@@ -20,19 +20,19 @@ public class Artikl {
         this.naziv = naziv;
     }
 
-    public int getKod() {
+    public String getKod() {
         return kod;
     }
 
-    public void setKod(int kod) {
+    public void setKod(String kod) {
         this.kod = kod;
     }
 
-    public String getCijena() {
+    public int getCijena() {
         return cijena;
     }
 
-    public void setCijena(String cijena) {
+    public void setCijena(int cijena) {
         this.cijena = cijena;
     }
 }
