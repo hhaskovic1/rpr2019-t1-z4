@@ -20,5 +20,39 @@ public class Korpa {
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
+
+        Artikl x = null;
+        int br=-1;
+        boolean nasao = false;
+
+        for(Artikl a:korpa) {
+            br++;
+            if(a.getKod().equals(kod)) {
+                x=a;
+                nasao=true;
+                break;
+            }
+        }
+
+        if(nasao) {
+            for(int i=br; i<broj; i++) {
+                korpa[i]=korpa[i+1];
+            }
+            broj--;
+        }
+
+        return x;
+
+
+    }
+
+    public int dajUkupnuCijenuArtikala() {
+        int suma = 0;
+
+        for(Artikl a:korpa) {
+            suma = suma + a.getCijena();
+        }
+
+        return suma;
     }
 }

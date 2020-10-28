@@ -19,14 +19,27 @@ public class Supermarket {
 
     public Artikl izbaciArtiklSaKodom(String kod) {
 
-        Artikl x;
+        Artikl x = null;
+        int br=-1;
+        boolean nasao = false;
 
         for(Artikl a:artikli) {
+            br++;
             if(a.getKod().equals(kod)) {
                 x=a;
+                nasao=true;
+                break;
             }
         }
 
+        if(nasao) {
+            for(int i=br; i<broj; i++) {
+                artikli[i]=artikli[i+1];
+            }
+            broj--;
+        }
+
+        return x;
 
 
     }
