@@ -7,9 +7,11 @@ public class Korpa {
 
 
     public boolean dodajArtikl(Artikl artikl) {
-        if(broj==50)return false;
-        
-        korpa[broj]=artikl;
+        if(broj==50) {
+            return false;
+        }
+        Artikl i = new Artikl(artikl);
+        korpa[broj]=i;
         broj++;
 
         return true;

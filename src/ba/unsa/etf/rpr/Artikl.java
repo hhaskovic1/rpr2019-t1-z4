@@ -12,6 +12,12 @@ public class Artikl {
         this.cijena = cijena;
     }
 
+    public Artikl(Artikl artikl) {
+        this.setCijena(artikl.getCijena());
+        this.setNaziv(artikl.getNaziv());
+        this.setKod(artikl.getKod());
+    }
+
     public String getNaziv() {
         return naziv;
     }

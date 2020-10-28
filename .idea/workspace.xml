@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7805f4-26f3-4ad7-afa7-0f29422429aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,23 +64,47 @@
       <option name="project" value="LOCAL" />
       <updated>1603897841911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="treci commit">
+      <created>1603898318732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898318732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prvi commit" />
     <MESSAGE value="drugi commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="drugi commit" />
+    <MESSAGE value="treci commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="treci commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="251" key="#com.intellij.ide.util.MemberChooser" timestamp="1603896804082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="251" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603896804082" />
-    <state x="588" y="103" key="CommitChangelistDialog2" timestamp="1603897841001">
+    <state x="588" y="103" key="CommitChangelistDialog2" timestamp="1603898317534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="588" y="103" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603897841001" />
+    <state x="588" y="103" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603898317534" />
+    <state width="1532" height="217" key="GridCell.Tab.0.bottom" timestamp="1603898394262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1532" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603898394262" />
+    <state width="1532" height="217" key="GridCell.Tab.0.center" timestamp="1603898394262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1532" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603898394262" />
+    <state width="1532" height="217" key="GridCell.Tab.0.left" timestamp="1603898394262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1532" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603898394262" />
+    <state width="1532" height="217" key="GridCell.Tab.0.right" timestamp="1603898394262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1532" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603898394262" />
     <state x="265" y="199" width="1392" height="674" key="dock-window-1" timestamp="1603897117160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
