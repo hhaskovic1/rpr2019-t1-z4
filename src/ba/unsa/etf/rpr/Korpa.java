@@ -51,8 +51,8 @@ public class Korpa {
     public int dajUkupnuCijenuArtikala() {
         int suma = 0;
 
-        for(Artikl a:korpa) {
-            suma = suma + a.getCijena();
+        for(int i=0; i<broj; i++) {
+            suma = suma + korpa[i].getCijena();
         }
 
         return suma;
